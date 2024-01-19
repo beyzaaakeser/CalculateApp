@@ -15,7 +15,6 @@
     <description>Calculate</description>
     <properties>
         <java.version>17</java.version>
-        <apache.poi.version>4.1.0</apache.poi.version>
         <springdoc.openapi.version>1.6.9</springdoc.openapi.version>
     </properties>
 
@@ -43,11 +42,6 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi-ooxml</artifactId>
-            <version>${apache.poi.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springdoc</groupId>
